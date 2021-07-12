@@ -17,7 +17,7 @@ f1.write(" hp")
 f=open('mydata.txt','r')
 f1=open('writefile.txt','w')
 #for data in f:
- #   print(data)
+    #print(data)
 
 for data in f:
     f1.write(data)
@@ -32,6 +32,18 @@ f2=open('shatil.jpg','rb') #read binary
 f3=open('mypic.jpg','wb') #write binary
 for i in f2:
     f3.write(i)
+
+
+###
+f4= open('mydata.txt','r')
+all=f4.readlines()
+print(all)
+
+
+####
+f4= open('mydata.txt','r')
+all=f4.read()
+print(all)
 
 
 
